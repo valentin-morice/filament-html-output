@@ -21,6 +21,7 @@ class HtmlOutput extends Field
     public function inline(string $html): static
     {
         $this->html = $html;
+
         return $this;
     }
 
